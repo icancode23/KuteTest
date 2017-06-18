@@ -29,6 +29,8 @@
             android:theme="@style/AppTheme.NoActionBar">
 
         </activity>
+        <activity android:name=".Activities.CurrentFriendList"
+            android:theme="@style/AppTheme.NoActionBar"/>
 
 
     </application>

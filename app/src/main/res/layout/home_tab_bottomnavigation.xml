@@ -9,12 +9,9 @@
          android:layout_marginLeft="8dp"
          android:layout_marginRight="8dp"
          android:layout_marginBottom="8dp"
-         android:layout_marginTop="4dp"
-         >
+         android:layout_marginTop="4dp">
         <TableRow android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            >
-
+            android:layout_width="match_parent">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -32,7 +29,6 @@
                 android:fontFamily="sans-serif-condensed"
                 android:background="@null"
                 android:paddingRight="4dp"/>
-
         </TableRow>
          <TableRow android:layout_height="wrap_content"
              android:layout_width="match_parent">
@@ -43,8 +39,7 @@
                  android:id="@+id/tripFrame"/>
          </TableRow>
          <TableRow android:layout_height="wrap_content"
-             android:layout_width="match_parent"
-             >
+             android:layout_width="match_parent">
              <TextView
                  android:layout_height="wrap_content"
                  android:layout_width="match_parent"
@@ -62,7 +57,6 @@
                  android:fontFamily="sans-serif-condensed"
                  android:background="@null"
                  android:paddingRight="4dp"/>
-
          </TableRow>
          <TableRow android:layout_height="wrap_content"
              android:layout_width="match_parent">
@@ -72,10 +66,8 @@
                  android:layout_span="2"
                  android:id="@+id/strarredRouteFrame"/>
          </TableRow>
-
          <TableRow android:layout_height="wrap_content"
-             android:layout_width="match_parent"
-             >
+             android:layout_width="match_parent">
              <TextView
                  android:layout_height="wrap_content"
                  android:layout_width="match_parent"
@@ -93,8 +85,6 @@
                android:fontFamily="sans-serif-condensed"
                android:background="@null"
                android:paddingRight="4dp"/>
-
-
          </TableRow>
          <TableRow android:layout_height="wrap_content"
              android:layout_width="match_parent">
