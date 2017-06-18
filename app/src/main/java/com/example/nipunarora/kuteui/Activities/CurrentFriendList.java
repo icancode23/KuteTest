@@ -9,6 +9,7 @@ import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.widget.ImageButton;
 
 import com.example.nipunarora.kuteui.Adapters.FriendRecyclerAdapter;
 import com.example.nipunarora.kuteui.DataModels.Person;
@@ -25,11 +26,12 @@ public class CurrentFriendList extends AppCompatActivity {
     ArrayList<Person> person_list;
     RecyclerView friend_recycler;
     FriendRecyclerAdapter recycler_adapter;
+    ImageButton back;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.current_friends_activity);
-
+        //TODO handle the back buttom navigation
         /*************** Creating Sample Friends for now ***********/
         person_list=new ArrayList<Person>();
         for(int i=0;i<4;++i)
@@ -40,6 +42,13 @@ public class CurrentFriendList extends AppCompatActivity {
         /************** Initialise the views *********/
         //Setting up a sample bitmap for now
         //TODO get friends from facebook and google and get their images
+        back=(ImageButton)findViewById(R.id.backNav);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
         Bitmap icon = BitmapFactory.decodeResource(this.getResources(),
                 R.drawable.samplperson);
         Bitmap scaled = Bitmap.createScaledBitmap(icon, 60, 60, true);

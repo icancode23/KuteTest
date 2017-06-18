@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_margin="8dp"
-        android:textSize="30dp"
+        android:textSize="@dimen/textsize_head2"
         android:text="My Routes"
         android:textColor="@android:color/white"
         />

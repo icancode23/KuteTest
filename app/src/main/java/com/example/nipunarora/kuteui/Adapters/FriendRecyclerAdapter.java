@@ -99,8 +99,8 @@ public class FriendRecyclerAdapter extends RecyclerView.Adapter<RecyclerView.Vie
 
     private void configureRecyclerHead(HeaderRecyclerViewHolder vh)
     {
-        vh.title.setText("Friends");
-        vh.head_image.setBackgroundResource(R.drawable.chat);
+        vh.title.setText("Current Friends");
+        vh.head_image.setBackgroundResource(R.drawable.community);
     }
     /******** End of Configuring of view holders ***************/
 }
